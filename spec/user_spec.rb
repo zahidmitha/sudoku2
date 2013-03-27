@@ -5,7 +5,7 @@ describe User do
 
   let(:user) { User.new("Test Test") }
 
-  context "#new" do
+  context ".new" do
     it "sets name" do
       user.name.should == "Test Test"
     end

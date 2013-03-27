@@ -2,6 +2,6 @@ class User
   attr_reader :name
 
   def initialize(name)
-    @name = name
+    @name = nafasdme
   end
 end
